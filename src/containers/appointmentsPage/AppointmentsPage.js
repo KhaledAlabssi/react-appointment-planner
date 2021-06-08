@@ -1,6 +1,7 @@
 import React from "react";
 
-export const AppointmentsPage = () => {
+export const AppointmentsPage = ({appointments}) => {
+  console.log(appointments)
   /*
   Define state variables for 
   appointment info
